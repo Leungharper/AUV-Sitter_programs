@@ -21,22 +21,4 @@ void loop() {
   delay(2000);
   servo1.write(135);
   delay(4000);
-
-  
-  /* ————后面有点问题————
-	//delay(2000);
-	for(i=90; i<180; i++) {
-		servo1.write(i);
-		delay(time);
-	}
-	for(i=180; i>0; i--) {
-		servo1.write(i);
-		delay(time);
-	}
-	for(i=0; i<=90; i++) {
-		servo1.write(i);
-		delay(time);
-	}
-	delay(2000);
-  */
 }
